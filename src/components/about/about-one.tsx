@@ -37,7 +37,7 @@ const AboutOne = () => {
             <div className="tp-about-2-content">
               <span>WELCOME TO ARIF SILK INDUSTRIES</span>
               <p className="mb-30">
-               Founded in 1990 by Mr. Arif, our company stands as a true reflection of determination, vision, and innovation in the textile world. What began as a humble journey with Mr. Arif starting as a labourer in the textile trade has grown into a thriving enterprise renowned for its advanced manufacturing capabilities and diverse range of premium fabrics.
+               Founded in 1982 by Mr. Arif, our company stands as a true reflection of determination, vision, and innovation in the textile world. What began as a humble journey with Mr. Arif starting as a labourer in the textile trade has grown into a thriving enterprise renowned for its advanced manufacturing capabilities and diverse range of premium fabrics.
 
 Today, Arif Silk Industries operates with a state-of-the-art production setup, combining traditional expertise with cutting-edge technology to deliver fabrics that meet the highest global standards. Our integrated facilities support both weaving and knitting processes, allowing us to cater to a wide variety of customer needs across local and international markets.</p>
                <span>VISION</span>
