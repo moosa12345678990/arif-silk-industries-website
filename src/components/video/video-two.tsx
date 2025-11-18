@@ -19,7 +19,7 @@ const VideoTwo = () => {
                 playsInline={true}
               >
                 <source
-                  src="assets/videos/introvideo.mp4"
+                  src="https://youtu.be/k4j8pH5X0aI"
                   type="video/mp4"
                 />
                
