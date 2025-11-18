@@ -5,7 +5,7 @@ import usePagination from "@/hooks/use-pagination";
 import Pagination from "../ui/pagination";
 import { IBlogDT } from "@/types/blog-d-t";
 import BlogItem from "./blog-item/blog-item";
-
+import mainblogimage from "@/assets/img/blogimage.png"
 export default function BlogModern() {
   const blog_items = [...blog_modern];
   const first_blog = blog_items[0];
@@ -19,12 +19,11 @@ export default function BlogModern() {
           <div className="row">
             <div className="col-xl-12">
               <div className="tp-blog-standard-thumb-box p-relative">
-                <Image data-speed=".8" src={first_blog.img!} alt="blog-img" />
+                <Image data-speed=".8" src={mainblogimage} alt="blog-img" />
                 <div className="tp-blog-standard-title-box d-none d-sm-block">
                   <h4
                     className="tp-blog-standard-title tp-char-animation"
-                    dangerouslySetInnerHTML={{ __html: first_blog.title }}
-                  ></h4>
+                  >Our Blogs</h4>
                 </div>
                 <div className="tp-blog-standard-meta d-none d-sm-block">
                   <span>

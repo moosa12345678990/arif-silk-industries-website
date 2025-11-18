@@ -15,6 +15,8 @@ import { charAnimation } from "@/utils/title-animation";
 import BlogModern from "@/components/blog/blog-modern-area";
 import BigText from "@/components/big-text";
 
+import HeaderTwo from "@/layouts/headers/header-two";
+
 const BlogModernMain = () => {
   useScrollSmooth();
 
@@ -28,7 +30,7 @@ const BlogModernMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+     <HeaderTwo />
       {/* header area end */}
 
       <div id="smooth-wrapper">

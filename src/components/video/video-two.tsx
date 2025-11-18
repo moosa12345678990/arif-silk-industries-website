@@ -1,6 +1,7 @@
 'use client';
 import React from "react";
 import { Leaf } from "../svg";
+import { TRUE } from "sass";
 
 const VideoTwo = () => {
   
@@ -18,18 +19,13 @@ const VideoTwo = () => {
                 playsInline={true}
               >
                 <source
-                  src="https://html.aqlova.com/videos/liko/liko.mp4"
+                  src="assets/videos/introvideo.mp4"
                   type="video/mp4"
                 />
+               
               </video>
               <div className="tp-video-content text-center">
-                <span className="tp-video-subtitle">
-                  <span>
-                    <Leaf />
-                  </span>
-                  Work in motion
-                </span>
-                <h2 className="tp-video-title">Play Reel</h2>
+                <h2 className="tp-video-title"></h2>
                 <p>
                   Our work is best experienced in motion. {"Don't"}
                   forget to put on your headphones.

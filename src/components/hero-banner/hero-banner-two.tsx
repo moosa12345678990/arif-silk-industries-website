@@ -13,7 +13,7 @@ const HeroBannerTwo = () => {
             <div className="tp-hero-2-wrapper-main">
               <div className="tp-hero-2-wrapper d-flex align-items-center p-relative">
                 <div className="tp-hero-2-bg tp-gsap-bg tp-hero-bg-single">
-                  <Image style={{ width: "100%", height: "90vh" }} src={banner} alt="hero-bg" />
+                  <Image style={{ width: "100%", minHeight: "70vh" }} src={banner} alt="hero-bg" />
                 </div>
                 <div className="tp-hero-2-content-wrap p-relative">
                   <div className="tp-hero-2-title-box">
@@ -33,7 +33,7 @@ const HeroBannerTwo = () => {
                       className="tp-btn-white"
                       href="/contact"
                     >
-                      Book a consultation
+                      Contact us
                       <span>
                       
                       </span>

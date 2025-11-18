@@ -14,7 +14,7 @@ export default function AboutUsHero() {
   return (
     <div
       className="ab-inner-hero-area ab-inner-hero-bg p-relative"
-      style={{backgroundImage: "url(/assets/img/inner-about/hero/hero-1.jpg)"}}
+      style={{backgroundImage: "url(/assets/img/contact.jpg)"}}
     >
       <div className="breadcurmb-site d-none">
         <h6>About Us</h6>
@@ -36,12 +36,13 @@ export default function AboutUsHero() {
               data-stagger="0.08"
             >
               <span className="ab-inner-hero-subtitle">
-                Digital <br /> creative agency
+                Crafting Silk
+ <br /> & Stories Since 1982
               </span>
               <h1 className="ab-inner-hero-title tp-char-animation">
-                Building Digital Presence
+                About us
               </h1>
-              <p>Digital experiences with maximum emotional impact</p>
+              <p>Founded in 1982 by Mr. Arif, our company stands as a true reflection of determination, vision, and innovation in the textile world. </p>
             </div>
           </div>
         </div>
@@ -53,10 +54,9 @@ export default function AboutUsHero() {
               data-stagger="0.08"
             >
               <p>
-                Liko develops, designs & delivers websites & creative campaigns
-                that drive results,
+               To become a global leader in home textiles by delivering innovative, sustainable, and premium-quality products that enrich living spaces worldwide while preserving our legacy of craftsmanship, integrity, and excellence.
               </p>
-               <Link className="tp-btn-white-sm border-style" href="#">Our Story</Link>
+               <Link className="tp-btn-white-sm border-style" href="#">Our Products</Link>
             </div>
           </div>
         </div>

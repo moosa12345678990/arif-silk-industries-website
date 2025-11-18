@@ -5,6 +5,8 @@ import { useGSAP } from "@gsap/react";
 import useScrollSmooth from "@/hooks/use-scroll-smooth";
 import { ScrollSmoother, ScrollTrigger, SplitText } from "@/plugins";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
+import HeaderTwo from "@/layouts/headers/header-two";
+
 
 // internal imports
 import Wrapper from "@/layouts/wrapper";
@@ -38,7 +40,8 @@ const AboutUsMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven transparent={true} />
+      
+      <HeaderTwo />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -48,25 +51,19 @@ const AboutUsMain = () => {
             <AboutUsHero />
             {/* about hero */}
 
-            {/* about area */}
-            <AboutUsArea />
-            {/* about area */}
+            {/* brand area */}
+            <BrandFive />
+            {/* brand area */}
+
 
             {/* team area */}
-            <TeamOne spacing="" />
+            {/* <TeamOne spacing="" /> */}
             {/* team area */}
 
             {/* fun fact area */}
             <FunFactOne />
             {/* fun fact area */}
 
-            {/* brand area */}
-            <BrandFive />
-            {/* brand area */}
-
-            {/* award area */}
-            <AwardOne cls="ab-award-style pt-120 pb-120" abStyle={true} />
-            {/* award area */}
           </main>
 
           {/* footer area */}

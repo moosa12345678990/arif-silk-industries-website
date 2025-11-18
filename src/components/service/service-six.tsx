@@ -2,71 +2,85 @@ import React from "react";
 import Image from "next/image";
 
 // images
-import ser_img_1 from "@/assets/img/inner-service/service/service-1.jpg";
-import ser_img_2 from "@/assets/img/inner-service/service/service-2.jpg";
-import ser_img_3 from "@/assets/img/inner-service/service/service-3.jpg";
-import ser_img_4 from "@/assets/img/inner-service/service/service-4.jpg";
+import ser_img_1 from "@/assets/img/twisting.jpg";
+import ser_img_2 from "@/assets/img/s.jpg";
+import ser_img_3 from "@/assets/img/d.jpg";
+import ser_img_4 from "@/assets/img/d.jpg";
+import ser_img_5 from "@/assets/img/g.jpg";
+import ser_img_6 from "@/assets/img/z.jpg";
 import { RightArrow, ShapeTwo } from "../svg";
 import Link from "next/link";
 
 const service_data = [
   {
     id: 1,
-    img: ser_img_1,
-    subtitle: "Design Studio",
-    title: "Logos and branding",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    img: ser_img_1, // fixed
+    subtitle: "Even twist",
+    title: "Twisting",
+    text: "At Arif Silk Industries, twisting is one of the key processes that ensures the strength, durability, and premium feel of our polyester and blended fabrics. Twisting helps convert loose filaments into strong, usable yarns that give the final fabric its performance characteristics.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Higher tensile strength",
+      "Smoother surface",
+      "Reduced fuzziness",
+      "Better fabric performance",
+      "More controlled texture and appearance",
     ],
   },
   {
     id: 2,
     img: ser_img_2,
-    subtitle: "Design Studio",
-    title: "Web Design",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    subtitle: "Manufacturing",
+    title: "Manufacturing",
+    text: "Utilizing automation, AI, and IoT in production processes enhances efficiency, quality control, and reduces waste, leading to smarter manufacturing practices.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Strict Quality Control System",
+      "Skilled Workforce & Technical Expertise",
+      "High Production Capacity",
+      "Customized Fabric Development",
     ],
   },
   {
     id: 3,
     img: ser_img_3,
-    subtitle: "Design Studio",
-    title: "Motion-Design",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    subtitle: "Offering Custom Designs",
+    title: "Designing",
+    text: "Offering tailored solutions, such as custom designs, sizes, and colors, allows manufacturers to cater to specific customer needs and preferences.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Creative & Trend-Focused Development",
+      "Precision Pattern & Texture Creation",
+      "Custom Design Solutions for Clients",
     ],
   },
   {
     id: 4,
-    img: ser_img_4,
-    subtitle: "Design Studio",
-    title: "Web Analytics",
-    text: "We create your graphic designs according to your budget and your needs. Reveal your brand image and capture your audience.",
+    img: ser_img_5,
+    subtitle: "Design Matching colors is an art and we are the masters of it",
+    title: "Dyeing", // corrected spelling
+    text: "Some companies control multiple stages of the supply chain, from raw material sourcing to final product delivery, ensuring quality and reducing lead times. Innovative Fabric Development.",
     lists: [
-      "Logo Design",
-      "Graphic identity",
-      "Business communication",
-      "Web design",
+      "Uniform & Deep Color Penetration",
+      "Excellent Color Fastness",
+      "Wide Range of Shades & Custom Dyeing",
     ],
   },
+  {
+    id: 5,
+    img: ser_img_6,
+    subtitle: "Polishing the product to be perfect",
+    title: "Finishing",
+    text: "We prioritize high-quality materials and rigorous quality control processes to ensure that every product meets industry standards and customer expectations.",
+    lists: [
+      "Premium Softness & Enhanced Hand Feel",
+      "Dimensional Stability & Quality Control",
+      "Specialized Finishes for Performance & Appearance",
+    ],
+  },
+
 ];
 
 export default function ServiceSix() {
   return (
-    <div className="sv-service-area project-panel-area-2">
+    <div className="sv-service-area project-panel-area-2 max-h-screen">
       <div className="container-fluid p-0">
         {service_data.map((item) => (
           <div key={item.id} className="sv-service-item project-panel-2">
@@ -75,8 +89,8 @@ export default function ServiceSix() {
                 <div className="sv-service-thumb">
                   <Image
                     src={item.img}
-                    alt="service-img"
-                    style={{ height: "auto" }}
+                    className="h-full"
+                    alt={item.title}
                   />
                 </div>
               </div>
@@ -85,8 +99,7 @@ export default function ServiceSix() {
                   <div className="sv-service-content">
                     <div className="sv-service-title-box">
                       <span className="sv-service-subtitle">
-                        <i>{item.id < 9 ? "0" + item.id : item.id}</i>
-                        {item.subtitle}
+                        <i>{item.id < 9 ? "0" + item.id : item.id}</i> {item.subtitle}
                       </span>
                       <h4 className="sv-service-title">{item.title}</h4>
                     </div>
@@ -100,18 +113,6 @@ export default function ServiceSix() {
                             <li key={i}>{list}</li>
                           ))}
                         </ul>
-                      </div>
-                      <div className="sv-service-btn">
-                        <Link
-                          className="tp-btn-zikzak zikzak-inner p-relative"
-                          href="/service-details"
-                        >
-                          <span className="zikzak-content">
-                            See <br /> Details
-                            <RightArrow clr="currentColor" />
-                          </span>
-                          <ShapeTwo />
-                        </Link>
                       </div>
                     </div>
                   </div>

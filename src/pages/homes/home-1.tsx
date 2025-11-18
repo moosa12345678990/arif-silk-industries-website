@@ -113,7 +113,7 @@ const HomeMain = () => {
             {/* project area */}
 
             {/* award area */}
-            <AwardOne />
+            
             {/* award area */}
 
             {/* team area */}

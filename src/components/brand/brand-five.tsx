@@ -9,14 +9,12 @@ import b_3 from "@/assets/img/inner-about/brand/brand-3.png";
 import b_4 from "@/assets/img/inner-about/brand/brand-4.png";
 import b_5 from "@/assets/img/inner-about/brand/brand-5.png";
 import b_6 from "@/assets/img/inner-about/brand/brand-2.png";
-import client1 from "@/assets/img/clientslogos/American-Textile-Company-ATC-logo.png"
-import client2 from "@/assets/img/clientslogos/calvin-klein-1-logo-black-and-white.png"
 import client3 from "@/assets/img/clientslogos/current-target-logo.png"
 import client4 from "@/assets/img/clientslogos/images.png"
 import client5 from "@/assets/img/clientslogos/logo-alkaram-black.png"
 import client6 from "@/assets/img/clientslogos/yunus.png"
  // brand images
-const brand_images = [client1, client2, client3, client4, client5, client6];
+const brand_images = [  client4, client5, client6];
 
 export default function BrandFive() {
   return (
@@ -31,7 +29,7 @@ export default function BrandFive() {
         <div className="row">
           <div className="col-xl-12">
             <div className="ab-brand-title-box mb-100">
-              <h4 className="ab-brand-title">Our clients</h4>
+              <h4 className="ab-brand-title">Our Direct Clients</h4>
             </div>
           </div>
         </div>

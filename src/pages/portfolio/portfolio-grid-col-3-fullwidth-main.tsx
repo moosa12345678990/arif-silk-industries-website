@@ -15,7 +15,7 @@ import FooterTwo from "@/layouts/footers/footer-two";
 // animation
 import { hoverBtn } from "@/utils/hover-btn";
 import {charAnimation,fadeAnimation,titleAnimation,zoomAnimation} from "@/utils/title-animation";
-
+import  HeaderTwo from "@/layouts/headers/header-two"
 const PortfolioGridColThreeFullwidthMain = () => {
   useScrollSmooth();
 
@@ -53,7 +53,7 @@ const PortfolioGridColThreeFullwidthMain = () => {
       {/* magic cursor end */}
       
       {/* header area start */}
-      <HeaderEleven />
+        <HeaderTwo />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -65,17 +65,12 @@ const PortfolioGridColThreeFullwidthMain = () => {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="tm-hero-content">
-                      <span className="tm-hero-subtitle">Liko Studio</span>
+                      <span className="tm-hero-subtitle">Arif Silk</span>
                       <h4 className="tm-hero-title fs-220 tp-char-animation">
-                        Classic Grid
+                        Our Products
                       </h4>
                     </div>
                     <div className="tm-hero-text tp_title_anim">
-                      <p>
-                        We’re a diverse team that works as fancies attention to
-                        details, enjoys beers on Friday nights and aspires to
-                        design the dent in the universe.
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -86,10 +81,6 @@ const PortfolioGridColThreeFullwidthMain = () => {
             {/* portfolio area */}
             <PortfolioGridColThreeArea style_2={true} />
             {/* portfolio area */}
-
-            {/* big text */}
-            <BigText />
-            {/* big text */}
           </main>
 
           {/* footer area */}

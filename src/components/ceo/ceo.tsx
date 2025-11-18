@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Container, Row, Col } from "react-bootstrap";
-import ceo from "@/assets/img/cheirfeo.jpeg"
+import ceo from "@/assets/img/ceowww.png"
 export default function CeoMessage() {
   return (
     <section className="py-5 ">

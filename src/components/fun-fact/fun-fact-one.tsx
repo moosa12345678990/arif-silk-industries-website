@@ -5,42 +5,42 @@ import { Leaf } from "../svg";
 const counter_data = [
   {
     id: 1,
-    title: "PROJECTS COMPLETED",
-    count: 200,
-    text: "+",
+    title: "Clients Worldwide",
+    count: 4300,
+    text: "+"
   },
   {
     id: 2,
     title: "YEARS OF EXPERIENCE",
-    count: 17,
+    count: 43,
     text: "+",
   },
   {
     id: 3,
     title: "TEAM MEMBERS",
-    count: 9,
+    count: 99,
     text: "+",
   },
   {
     id: 4,
-    title: "GROWING AGENCY",
-    count: 194,
-    text: "%",
+    title: "Producing Capacity in meters per month",
+    count: 140000,
+    text: "+",
   },
 ];
 export default function FunFactOne() {
   return (
-    <div className="ab-funfact-area pb-40">
+    <div className="ab-funfact-area pt-4 pb-40">
       <div className="container container-1480">
         <div className="row">
           <div className="col-xl-4">
             <div className="ab-funfact-title-box">
               <span className="ab-inner-subtitle mb-25">
                 <Leaf />
-                Fun Facts
+                Our Legacy
               </span>
               <h4 className="ab-inner-funfact-title tp_title_anim">
-                Agency <br /> Snapshots
+                Our <br /> Analytics
               </h4>
             </div>
           </div>

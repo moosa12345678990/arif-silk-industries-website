@@ -53,11 +53,10 @@ export default function FooterTwo({ whiteFooter = false, topCls = 'footer-top' }
                 <div className="tp-footer-2-widget-menu">
                   <h4 className="tp-footer-2-widget-title">Links</h4>
                   <ul>
-                    <li><Link href="#">Home</Link></li>
-                    <li><Link href="#">About</Link></li>
-                    <li><Link href="#">Contact</Link></li>
-                    <li> <Link href="#">Blog</Link></li>
-                    <li><Link href="#">Landing</Link></li>
+                    <li><Link href="/home-2">Home</Link></li>
+                    <li><Link href="/portfolio-grid-col-3-fullwidth">Portfolio</Link></li>
+                    <li><Link href="/contact">Contact</Link></li>
+                    <li> <Link href="/about-us">About Us</Link></li>
                   </ul>
                 </div>
               </div>

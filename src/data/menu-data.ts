@@ -264,10 +264,9 @@ export const mobile_menu_data: {
   link: string;
 }[] = [
   { id: 1, title: 'Home', link: '/home-2' },
-  { id: 2, title: 'Pages', link: '/home-2' }, // default link, or any main page
-  { id: 3, title: 'Portfolio', link: '/home-2' },
-  { id: 4, title: 'Blog', link: '/home-2' },
-  { id: 5, title: 'Contact', link: '/home-2' },
+  { id: 3, title: 'Products', link: '/portfolio-grid-col-3-fullwidth' },
+  { id: 5, title: 'Contact', link: '/contact' },
+   { id: 6, title: 'About Us', link: '/about-us' },
 ];
 
 // { id: 1, title: 'Home', link: '/home-2' },

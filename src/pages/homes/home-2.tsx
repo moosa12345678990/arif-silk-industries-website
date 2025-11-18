@@ -20,6 +20,9 @@ import InstagramArea from "@/components/instagram/instagram-area";
 import FooterTwo from "@/layouts/footers/footer-two";
 import CeoMessage from "@/components/ceo/ceo"
 import ContactTwo from "@/components/contact/contact-two";
+import ProjectOne from "@/components/project/project-one";
+import AwardOne from "@/components/award/award-one";
+
 // animation
 import { bounceAnimation, heroBgAnimation, heroTitleAnim } from "@/utils/title-animation";
 import { videoAnimTwo } from "@/utils/video-anim";
@@ -29,6 +32,11 @@ import { instagramAnim } from "@/utils/instagram-anim";
 import { hoverBtn } from "@/utils/hover-btn";
 import { aboutAnim } from "@/utils/about-anim";
 import BrandFive from "@/components/brand/brand-five";
+import Brand from "@/components/brand/brand-"
+import ServiceSix from "@/components/service/service-six";
+// animation
+import { charAnimation, fadeAnimation } from "@/utils/title-animation";
+import { servicePanel } from "@/utils/panel-animation";
 const HomeTwoMain = () => {
   useScrollSmooth();
   useEffect(() => {
@@ -37,6 +45,15 @@ const HomeTwoMain = () => {
       document.body.classList.remove("tp-smooth-scroll");
     }
   }, []);
+  
+  useGSAP(() => {
+    const timer = setTimeout(() => {
+      charAnimation();
+      fadeAnimation();
+      servicePanel();
+    }, 100);
+    return () => clearTimeout(timer);
+  });
 
   useGSAP(() => {
     const timer = setTimeout(() => {
@@ -77,6 +94,7 @@ const HomeTwoMain = () => {
                 <BrandFive />
  {/* clients section end  */}
 
+
             {/* about area start */}
             <AboutOne />
             {/* about area end */}
@@ -84,15 +102,23 @@ const HomeTwoMain = () => {
             {/* video area start */}
             <VideoTwo />
             {/* video area end */}
+ 
 
-            {/* service area start */}
-            <ServiceTwo />
+            
+     {/* hero area end */}
+                   {/* clients section */}
+                <Brand />
+                 <ServiceSix />
+                  <AwardOne />
+ {/* clients section end  */}
             {/* service area end */}
             <CeoMessage />
 
           
              <ContactTwo/>
 
+
+           
             {/* award area */}
             {/* <AwardTwo /> */}
             {/* award area */}

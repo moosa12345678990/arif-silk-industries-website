@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 // internal imports
 import Wrapper from "@/layouts/wrapper";
 import HeaderEleven from "@/layouts/headers/header-eleven";
+import HeaderTwo from "@/layouts/headers/header-two"
 import ContactTwo from "@/components/contact/contact-two";
 import ContactLocation from "@/components/contact/contact-location";
 import FooterTwo from "@/layouts/footers/footer-two";
@@ -28,7 +29,7 @@ const ContactMain = () => {
   return (
     <Wrapper>
       {/* header area start */}
-      <HeaderEleven />
+      <HeaderTwo />
       {/* header area end */}
 
       <div id="smooth-wrapper">
@@ -47,7 +48,7 @@ const ContactMain = () => {
                   <div className="row">
                     <div className="col-xl-12">
                       <div className="tm-hero-content">
-                        <span className="tm-hero-subtitle">Liko Studio</span>
+                        <span className="tm-hero-subtitle">Arif Silk Industries</span>
                         <h4 className="tm-hero-title-big tp-char-animation">
                           Get in touch
                         </h4>
