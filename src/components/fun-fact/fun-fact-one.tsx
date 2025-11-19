@@ -1,5 +1,5 @@
 import React from "react";
-import CounterItem from "../counter/counter-item";
+
 import { Leaf } from "../svg";
 
 const counter_data = [
@@ -51,7 +51,7 @@ export default function FunFactOne() {
                   <div key={item.id} className="col-xl-6 col-lg-6 col-md-6">
                     <div className="ab-funfact-item mb-90">
                       <span>
-                        <CounterItem min={0} max={item.count} />
+                        
                         {item.text}
                       </span>
                       <p>{item.title}</p>
