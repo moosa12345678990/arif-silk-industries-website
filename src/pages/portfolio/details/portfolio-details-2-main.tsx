@@ -166,8 +166,5 @@ function TechnicalSpecificationsshaffon() {
    );
 }
 
-export {
-   PortfolioDetailsTwoMain,
-   TechnicalSpecificationsshaffon
-
-};
+export default PortfolioDetailsTwoMain;
+export { TechnicalSpecificationsshaffon };
