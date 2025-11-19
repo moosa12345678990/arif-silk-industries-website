@@ -3,6 +3,7 @@ import React from "react";
 import { Leaf } from "../svg";
 import { TRUE } from "sass";
 
+
 const VideoTwo = () => {
   
   return (
@@ -19,7 +20,7 @@ const VideoTwo = () => {
                 playsInline={true}
               >
                 <source
-                  src="https://youtu.be/k4j8pH5X0aI"
+                  src="assets/videos/introvideo.mp4"
                   type="video/mp4"
                 />
                
