@@ -19,14 +19,6 @@ export default function AboutUsHero() {
       <div className="breadcurmb-site d-none">
         <h6>About Us</h6>
       </div>
-      <div className="ab-inner-hero-scroll smooth">
-        <a className="pointer" onClick={scrollTo}>
-          <span>
-            Scroll to explore
-            <ScrollDown />
-          </span>
-        </a>
-      </div>
       <div className="container container-1480">
         <div className="row">
           <div className="col-xl-8">
