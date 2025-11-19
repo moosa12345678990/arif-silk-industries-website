@@ -9,7 +9,6 @@ gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 // internal imports
 import Wrapper from "@/layouts/wrapper";
 import HeaderEleven from "@/layouts/headers/header-eleven";
-import PortfolioGridFourColArea from "@/components/portfolio/portfolio-grid-4-col-area";
 import BigText from "@/components/big-text";
 import FooterTwo from "@/layouts/footers/footer-two";
 // animation
@@ -89,7 +88,7 @@ const PortfolioGridColFourFullwidthMain = () => {
             {/* portfolio hero */}
 
             {/* portfolio area */}
-            <PortfolioGridFourColArea style_2={true}/>
+       
             {/* portfolio area */}
 
             {/* big text */}
