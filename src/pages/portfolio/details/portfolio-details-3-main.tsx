@@ -165,9 +165,4 @@ function TechnicalSpecificationsss() {
       </div>
    );
 }
-
-export {
-   PortfolioGridColThreeMain,
-   TechnicalSpecificationsss
-
-};
+export default PortfolioGridColThreeMain;
