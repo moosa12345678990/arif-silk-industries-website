@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-// images
-import ser_img_1 from "@/assets/img/twisting.jpg";
+import ser_img_1 from "@/assets/img/gg.jpg";
 import ser_img_2 from "@/assets/img/s.jpg";
 import ser_img_3 from "@/assets/img/d.jpg";
 import ser_img_4 from "@/assets/img/d.jpg";
