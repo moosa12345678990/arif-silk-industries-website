@@ -9,6 +9,7 @@ import localFont from "next/font/local";
 import { ThemeProvider } from "next-themes";
 import "swiper/css/bundle";
 import "./globals.scss";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const gellery = localFont({
   src: [

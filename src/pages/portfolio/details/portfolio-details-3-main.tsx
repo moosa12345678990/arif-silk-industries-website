@@ -166,3 +166,4 @@ function TechnicalSpecificationsss() {
    );
 }
 export default PortfolioGridColThreeMain;
+export { TechnicalSpecificationsss };
