@@ -85,6 +85,7 @@ export default function RootLayout({
         <ThemeProvider defaultTheme="light">
           <VideoProvider>
             {children}
+            <SpeedInsights />
           </VideoProvider>
         </ThemeProvider>
       </body>
